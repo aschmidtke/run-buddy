@@ -5,11 +5,11 @@
 }
 
 body {
-    /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
   }
-  /* apply styles to <header> */
+
+  /* header/ nav styles */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -48,6 +48,10 @@ header {
       font-size: 1.55vw;
   }
 
+  /* header nav style end */
+
+  /* footer style start */
+
   footer {
       background: #fce138;
       width: 100%;
@@ -75,6 +79,7 @@ header {
   section {
       padding 60px;
   }
+  /* Footer style end */
 
   /* Hero Style Start */
   .hero {
@@ -146,19 +151,7 @@ header {
 
   /* Hero Styles End*/
 
-
-  .intro p {
-      line-height: 1.7;
-      color: #39a6b62;
-      width: 80%;
-      font-size: 20px;
-      margin: 0 auto;
-      text-align: center;
-  }
-
-  .steps {
-      background: #fce138;
-  }
+  /* section title style start*/
 
   .section-title {
       font-size: 55px;
@@ -177,6 +170,34 @@ header {
   .secondary-border {
       border-color: #39a6b2;
   }
+
+  /* section title end */
+
+  /* what we do start */
+
+  .intro p {
+    line-height: 1.7;
+    color: #39a6b62;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.steps {
+    background: #fce138;
+}  .intro p {
+    line-height: 1.7;
+    color: #39a6b62;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.steps {
+    background: #fce138;
+}
 
   .step h3 {
       color: #024e76;
@@ -284,6 +305,11 @@ header {
     background: #024e76;
   }
   
+  .contact-info {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
   .contact h2 {
       color: #fce138;
   }
@@ -293,9 +319,6 @@ header {
   }
 
   .contact-info div {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
       color: white;
   }
 
